@@ -1,14 +1,25 @@
 import './home.css';
+import 'font-awesome/css/font-awesome.min.css';
+import github from "../../utils/github.svg"
+import instagram from "../../utils/instagram.svg"
+import linkedin from "../../utils/linkedin.svg"
+import twitter from "../../utils/twitter.svg"
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
-    <div>
-      <h1>Juan Bautista María Beck</h1>
-      <h2>Full Stack Developer</h2>
-
-      <a href="https://www.linkedin.com/in/juan-bautista-mar%C3%ADa-beck/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      <a href="https://github.com/JBautistaBeck" target="_blank" rel="noopener noreferrer">GitHub</a>
-      <a href="https://www.instagram.com/bautista.beck/" target="_blank" rel="noopener noreferrer">Instagram</a>
+    <div className='home-container'>
+      <div className='info-container'>
+        <h1 className='title'>Juan Bautista María Beck</h1>
+        <h2 className='subtitle'>Full Stack Developer</h2>
+      </div>
+      <div className="icon-container">
+        <a className='img-icons' href="https://www.linkedin.com/in/juan-bautista-mar%C3%ADa-beck/" target="_blank" rel="noopener noreferrer"><img src={linkedin}/></a>
+        <a className='img-icons' href="https://github.com/JBautistaBeck" target="_blank" rel="noopener noreferrer"><img src={github}/></a>
+        <a className='img-icons' href="https://www.instagram.com/bautista.beck/" target="_blank" rel="noopener noreferrer"><img src={instagram}/></a>
+        <a className='img-icons' href="https://twitter.com/JuanBeckFS" target="_blank" rel="noopener noreferrer"><img src={twitter}/></a>
+      </div>
+      <Link to="/about"><button className='button-aboutme'>More about me</button></Link>
     </div>
   );
 }
