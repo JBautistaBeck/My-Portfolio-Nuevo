@@ -1,0 +1,11 @@
+import './about.css';
+
+function About() {
+  return (
+    <div>
+      <h1>Este es el About</h1>
+    </div>
+  );
+}
+
+export default About;
