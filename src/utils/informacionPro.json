@@ -1,0 +1,32 @@
+[
+    {
+      "nombre": "Oasis Hotel",
+      "descripcion": "Descripción del Proyecto 1",
+      "clonePBack": "https://github.com/pf40a/PfBack.git",
+      "clonePFront": "https://github.com/pf40a/PfFront.git",
+      "repositorioBack": "https://github.com/pf40a/PfBack",
+      "repositorioFront": "https://github.com/pf40a/PfFront",
+      "lenguajes": "JavaScript: 98.7%, CSS: 1.1%, HTML: 0.2%",
+      "fechaCreacion": "21/08/2023",
+      "status": "doble"
+    },
+    {
+      "nombre": "The Dog Company",
+      "descripcion": "Descripción del Proyecto 2",
+      "cloneP": "https://github.com/JBautistaBeck/PI-Dogs.git",
+      "repositorio": "https://github.com/JBautistaBeck/PI-Dogs",
+      "lenguajes": "JavaScript: 82.2%, CSS: 14.7%, HTML: 3.1%",
+      "fechaCreacion": "28/07/2023",
+      "status": "simple"
+    },
+    {
+      "nombre": "Rick and Mory | Soy Henry",
+      "descripcion": "Descripción del Proyecto 3",
+      "cloneP": "https://github.com/JBautistaBeck/Integrador-Rick-and-Morty.git",
+      "repositorio": "https://github.com/JBautistaBeck/Integrador-Rick-and-Morty",
+      "lenguajes": "JavaScript: 80.0%, CSS: 14.9% , HTML: 5.1%",
+      "fechaCreacion": "10/05/2023",
+      "status": "simple"
+    }
+  ]
+  

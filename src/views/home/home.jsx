@@ -14,10 +14,10 @@ function Home() {
         <h2 className='subtitle'>Full Stack Developer</h2>
       </div>
       <div className="icon-container">
-        <a className='img-icons' href="https://www.linkedin.com/in/juan-bautista-mar%C3%ADa-beck/" target="_blank" rel="noopener noreferrer"><img src={linkedin}/></a>
-        <a className='img-icons' href="https://github.com/JBautistaBeck" target="_blank" rel="noopener noreferrer"><img src={github}/></a>
-        <a className='img-icons' href="https://www.instagram.com/bautista.beck/" target="_blank" rel="noopener noreferrer"><img src={instagram}/></a>
-        <a className='img-icons' href="https://twitter.com/JuanBeckFS" target="_blank" rel="noopener noreferrer"><img src={twitter}/></a>
+        <a className='img-icons' href="https://www.linkedin.com/in/juan-bautista-mar%C3%ADa-beck/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt='LinkedIn'/></a>
+        <a className='img-icons' href="https://github.com/JBautistaBeck" target="_blank" rel="noopener noreferrer"><img src={github} alt='GitHub'/></a>
+        <a className='img-icons' href="https://www.instagram.com/bautista.beck/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt='Instagram'/></a>
+        <a className='img-icons' href="https://twitter.com/JuanBeckFS" target="_blank" rel="noopener noreferrer"><img src={twitter} alt='Twitter'/></a>
       </div>
       <Link to="/about"><button className='button-aboutme'>More about me</button></Link>
     </div>

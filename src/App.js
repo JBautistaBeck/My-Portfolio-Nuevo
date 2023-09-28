@@ -5,7 +5,7 @@ import About from './views/about/about';
 import Proyectos from './views/proyectos/proyectos';
 import Skills from './views/skills/skills';
 import NavBar from './componets/NavBar/navBar';
-import {Route, Routes, useLocation} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 
 function App() {
 
