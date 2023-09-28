@@ -6,8 +6,9 @@ import informacionPro from '../../utils/informacionPro.json';
 function Proyectos() {
 
   return (
-    <div>
+    <div className='proyectos-container'>
       <h1>Este es el Proyectos</h1>
+      <div className="proyectos-list">
       {informacionPro.map((proyecto, index) => (
       proyecto.status === 'simple' ? (
         <CardSimple
@@ -17,7 +18,7 @@ function Proyectos() {
           cloneP={proyecto.cloneP}
           repositorio={proyecto.repositorio}
           lenguajes={proyecto.lenguajes}
-          actualizado={proyecto.fechaCreacion}
+          fechaCreacion={proyecto.fechaCreacion}
         />
       ) : (
         <CardDoble
@@ -29,10 +30,11 @@ function Proyectos() {
           repositorioBack={proyecto.repositorioBack}
           repositorioFront={proyecto.repositorioFront}
           lenguajes={proyecto.lenguajes}
-          actualizado={proyecto.fechaCreacion}
+          fechaCreacion={proyecto.fechaCreacion}
         />
       )
       ))}
+      </div>
     </div>
   );
 }

@@ -1,3 +1,51 @@
 .cardD-container {
-    background-color: rgb(21, 73, 22);
+    background-color: #f0f0f0;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+  
+.cardD-container h1 {
+    font-size: 24px;
+    margin-top: 0;
+}
+  
+.cardD-container p {
+    font-size: 16px;
+}
+  
+.cardD-container h2 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+  
+.cardD-container a {
+    text-decoration: none;
+}
+  
+.cardD-container button {
+    background-color: transparent;
+    border: 1px solid #000000; 
+    border-radius: 8px;
+    padding: 10px 20px; 
+    font-size: 18px; 
+    color: #000000; 
+    text-decoration: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    margin-top: 20px;
+}
+  
+.cardD-container button:hover {
+    background-color: #000000; 
+    color: #ffffff; 
+}
+
+.cardD-container:hover {
+    transform: scale(1.01); 
+    transition: transform 0.2s ease; 
 }

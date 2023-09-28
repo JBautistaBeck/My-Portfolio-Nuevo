@@ -1,0 +1,17 @@
+.proyectos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;
+    flex: 1; 
+    background-color: #c17690;
+}
+
+.proyectos-list {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px; 
+    padding: 20px; 
+}
+  

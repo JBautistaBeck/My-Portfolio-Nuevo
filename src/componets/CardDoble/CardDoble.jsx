@@ -1,18 +1,16 @@
 import './CardDoble.css';
 
-function CardDoble({nombre, descripcion, clonePFront, repositorioFront, clonePBack, repositorioBack, lenguajes, fechaCreacion}) {
-
+function CardDoble({nombre, descripcion, repositorioFront, repositorioBack, lenguajes, fechaCreacion}) {
+    
   return (
     <div className='cardD-container'>
       <h1>{nombre}</h1>
       <p>{descripcion}</p>
-      <button>{clonePFront}</button>
-      <button>{repositorioFront}</button>
-      <button>{clonePBack}</button>
-      <button>{repositorioBack}</button>
+      <a href={repositorioFront} target="_blank" rel="noopener noreferrer"><button>Repositorio FrontEnd</button></a>
+      <a href={repositorioBack} target="_blank" rel="noopener noreferrer"><button>Repositorio BackEnd</button></a>
 
-      <h2>{lenguajes}</h2>
-      <p>{fechaCreacion}</p>
+      <h2>Lenguajes: {lenguajes}</h2>
+      <p>Fecha de Creacion: {fechaCreacion}</p>
     </div>
   );
 }
