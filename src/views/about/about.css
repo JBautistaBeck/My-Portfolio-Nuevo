@@ -1,0 +1,55 @@
+.about-container {
+    background-color: #c17690;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    height: 88.7vh;
+    position: relative;
+}
+  
+.img-container {
+    width: 80%;
+}
+  
+.round-image {
+    border-radius: 60%;
+    max-width: 50%;
+    height: auto;
+    margin-left: 90px;
+}
+  
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%; 
+    margin-right: 50px;
+}
+
+.button-aboutme {
+    background-color: transparent;
+    border: 1px solid #000000; 
+    border-radius: 8px;
+    padding: 10px 20px; 
+    font-size: 18px; 
+    color: #000000; 
+    text-decoration: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    margin-top: 2px;
+}
+
+
+.button-aboutme:hover {
+    background-color: #000000; 
+    color: #ffffff; 
+}
+
+.top-right-button {
+    position: absolute;
+    top: 20px;
+    right: 20px; 
+}
