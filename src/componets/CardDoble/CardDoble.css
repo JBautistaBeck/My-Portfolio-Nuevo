@@ -49,3 +49,7 @@
     transform: scale(1.01); 
     transition: transform 0.2s ease; 
 }
+
+.icono  {
+    margin-right: 8px;
+}
