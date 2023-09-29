@@ -21,7 +21,9 @@ function Proyectos() {
 
   return (
     <div className='proyectos-container'>
-      <h1>Este es el Proyectos</h1>
+
+      <h1>Proyectos</h1>
+
       <div className="proyectos-list">
       {informacionPro.map((proyecto, index) => (
         <CardDoble
@@ -40,12 +42,14 @@ function Proyectos() {
         />
        ))}
       </div>
+
       {showDetail && (
         <Detail
           proyecto={selectedProject}
           onClose={handleCloseDetail} // Pasa la función para cerrar Detail
         />
       )}
+      
     </div>
   );
 }
