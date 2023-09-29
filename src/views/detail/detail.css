@@ -1,0 +1,95 @@
+.detail-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); 
+    z-index: 1000; 
+}
+  
+.detail-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    width: 70%;
+    height: 90%;
+    text-align: right;
+    border-radius: 8px;
+}
+
+.detail-image {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.detail-content button {
+    background-color: transparent;
+    border: 1px solid #000000; 
+    border-radius: 8px;
+    padding: 5px 10px; 
+    font-size: 15px; 
+    color: #000000; 
+    text-decoration: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+  
+.detail-content button:hover {
+    background-color: #000000; 
+    color: #ffffff; 
+}
+
+.project-name {
+    padding-right: 400px;
+}
+
+/* TABS */
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd; 
+    margin-bottom: 5px;
+}
+
+.tab {
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f1f1f1; /* Color de fondo de las pestañas inactivas */
+    border: 1px solid #ddd; /* Borde de las pestañas inactivas */
+    border-radius: 5px 5px 0 0;
+    font-size: 5px; 
+}
+
+.tab.active {
+    background-color: #fff; /* Color de fondo de la pestaña activa */
+    border-bottom: none; 
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    display: none;
+}
+
+.column.active {
+    display: block; 
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Asegura que el contenedor ocupe todo el alto disponible */
+}
+
+.carousel-container {
+    margin-left: 35px; 
+}
+
