@@ -61,14 +61,14 @@
     flex: 1;
     text-align: center;
     cursor: pointer;
-    background-color: #f1f1f1; /* Color de fondo de las pestañas inactivas */
-    border: 1px solid #ddd; /* Borde de las pestañas inactivas */
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
     border-radius: 5px 5px 0 0;
     font-size: 5px; 
 }
 
 .tab.active {
-    background-color: #fff; /* Color de fondo de la pestaña activa */
+    background-color: #fff; 
     border-bottom: none; 
 }
 
@@ -86,7 +86,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%; /* Asegura que el contenedor ocupe todo el alto disponible */
+    height: 100%;
 }
 
 .carousel-container {
