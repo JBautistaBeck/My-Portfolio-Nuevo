@@ -9,8 +9,9 @@ function Skills() {
     setActiveTab(tab);
   };
 
-  
+
   return (
+    <div className='all'>
     <div className="skills-container">
       <div className="tabs">
 
@@ -39,6 +40,7 @@ function Skills() {
         )}
 
       </div>
+    </div>
     </div>
   );
 }

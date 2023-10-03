@@ -23,11 +23,11 @@ function Detail({ onClose, proyecto }) {
         {/* Pestañas */}
         <div className="tabs">
 
-          <div className={`tab ${activeTab === 'fotos' ? 'active' : ''}`} onClick={() => handleTabClick('fotos')}>
+          <div className={`tabx ${activeTab === 'fotos' ? 'active' : ''}`} onClick={() => handleTabClick('fotos')}>
             <h1>Fotos</h1>
           </div>
 
-          <div className={`tab ${activeTab === 'videos' ? 'active' : ''}`} onClick={() => handleTabClick('videos')}>
+          <div className={`tabx ${activeTab === 'videos' ? 'active' : ''}`} onClick={() => handleTabClick('videos')}>
             <h1>Videos</h1>
           </div>
 
