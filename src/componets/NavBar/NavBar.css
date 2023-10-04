@@ -13,7 +13,7 @@
     font-weight: bold; 
 }
 
-/* Estilos para pantallas pequeñas (media query) */
+
 @media (max-width: 768px) {
     .nav-container {
         flex-direction: column;

@@ -100,11 +100,11 @@
     font-size: 22px;
 }
 
-/* Ajusta las columnas de las habilidades técnicas y suave para dispositivos móviles */
+
 @media (max-width: 768px) {
 
     .ul-skills, .ul-skills-soft {
-        grid-template-columns: repeat(1, 1fr); /* Cambia a una columna para dispositivos móviles */
+        grid-template-columns: repeat(1, 1fr);
     }
     .ul-skills li{
         margin-bottom: -2px;
@@ -114,14 +114,14 @@
     }
 
     .ul-skills-soft {
-        margin-left: 0; /* Elimina el margen izquierdo para centrar en dispositivos móviles */
+        margin-left: 0; 
     }
     .ul-skills-soft li {
         margin-bottom: 15px;
     }
 }
 
-/* Haz que el contenedor principal sea responsive */
+
 @media (max-width: 768px) {
     .skills-container {
         height: 810px;
