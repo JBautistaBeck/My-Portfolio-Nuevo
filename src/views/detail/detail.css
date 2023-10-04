@@ -49,7 +49,7 @@
     padding-right: 400px;
 }
 
-/* TABS */
+
 .tabs {
     display: flex;
     justify-content: space-between;
@@ -93,4 +93,31 @@
     margin-left: 35px;
     width: 800px;
     height: 300px; /* Establece la altura */
+}
+
+@media (max-width: 768px) {
+    .detail-content {
+      padding: 10px;
+      margin-left: -28px; 
+
+    }
+  
+    .tabs {
+      flex-direction: row; /* Volver a la disposición horizontal */
+    }
+  
+    .tabx {
+      flex: 1;
+      margin: 0;
+    }
+  
+    .tabx h1 {
+      font-size: 14px; /* Reducir el tamaño de fuente en dispositivos pequeños */
+    }
+
+    .carousel-container {
+        width: 90%;
+        height: auto;
+        margin-left: 10px;
+    }
 }

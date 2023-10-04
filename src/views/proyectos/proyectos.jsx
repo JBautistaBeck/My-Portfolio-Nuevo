@@ -22,7 +22,7 @@ function Proyectos() {
   return (
     <div className='proyectos-container'>
 
-      <h1>Proyectos</h1>
+      <h1 className='title-pro'>Proyectos</h1>
 
       <div className="proyectos-list">
       {informacionPro.map((proyecto, index) => (
