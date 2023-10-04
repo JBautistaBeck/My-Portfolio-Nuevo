@@ -46,7 +46,18 @@ function Skills() {
         {/* Contenido de Soft Skills */}
         {activeTab === 'soft' && (
           <div>
-            <p>Aquí van las habilidades blandas (soft skills).</p>
+            <ul>
+              <li>Comunicación</li>
+              <li>Trabajo en equipo</li>
+              <li>Resolución de problemas</li>
+              <li>Creatividad</li>
+              <li>Adaptabilidad</li>
+              <li>Gestión del tiempo</li>
+              <li>Ética profesional</li>
+              <li>Aprendizaje rápido</li>
+              <li>Optimista</li>
+              <li>Proactivo</li>
+            </ul>
           </div>
         )}
 
