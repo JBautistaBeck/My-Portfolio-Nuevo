@@ -10,7 +10,8 @@
 .skills-container {
     text-align: center;
     width: 700px;
-    max-height: 500px;
+    max-width: 90%;
+    height: 500px;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -97,4 +98,37 @@
 .ul-skills-soft li b {
     margin-left: 13px;
     font-size: 22px;
+}
+
+/* Ajusta las columnas de las habilidades técnicas y suave para dispositivos móviles */
+@media (max-width: 768px) {
+
+    .ul-skills, .ul-skills-soft {
+        grid-template-columns: repeat(1, 1fr); /* Cambia a una columna para dispositivos móviles */
+    }
+    .ul-skills li{
+        margin-bottom: -2px;
+    }
+    .ul-skills {
+        margin-top: -5px;
+    }
+
+    .ul-skills-soft {
+        margin-left: 0; /* Elimina el margen izquierdo para centrar en dispositivos móviles */
+    }
+    .ul-skills-soft li {
+        margin-bottom: 15px;
+    }
+}
+
+/* Haz que el contenedor principal sea responsive */
+@media (max-width: 768px) {
+    .skills-container {
+        height: 810px;
+        width: 200px;
+        margin-left: -100px;
+    }
+    .all {
+        height: 100vh;
+    }
 }
