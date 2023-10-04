@@ -60,9 +60,10 @@ li {
     flex-direction: column;
     align-items: center;
 }
-  
 
 li img {
-    width: 35px; 
+    width: 40px; 
     height: auto;
+    margin-top: 5px;
+    margin-bottom: -3px;
 }
