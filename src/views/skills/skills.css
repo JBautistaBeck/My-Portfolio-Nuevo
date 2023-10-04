@@ -10,13 +10,13 @@
 .skills-container {
     text-align: center;
     width: 700px;
-    max-height: 400px;
+    max-height: 500px;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     background-color: rgb(255, 255, 255);
-    margin-top: 80px;
+    margin-top: 24px;
 }
   
 .tabs {
@@ -42,4 +42,27 @@
 .tab-content {
     padding: 20px;
     text-align: left;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 10px; 
+    justify-content: center; 
+}
+  
+
+li {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+
+li img {
+    width: 35px; 
+    height: auto;
 }
