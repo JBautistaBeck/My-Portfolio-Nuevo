@@ -44,7 +44,7 @@
     text-align: left;
 }
 
-ul {
+.ul-skills {
     list-style: none;
     padding: 0;
     display: grid;
@@ -54,14 +54,14 @@ ul {
 }
   
 
-li {
+.li-skills {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-li img {
+.li-skills img {
     width: 40px; 
     height: auto;
     margin-top: 5px;
