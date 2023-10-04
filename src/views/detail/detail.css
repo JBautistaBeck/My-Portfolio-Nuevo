@@ -90,6 +90,7 @@
 }
 
 .carousel-container {
-    margin-left: 35px; 
+    margin-left: 35px;
+    width: 800px;
+    height: 300px; /* Establece la altura que desees */
 }
-
