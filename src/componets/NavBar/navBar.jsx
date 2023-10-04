@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 function NavBar() {
 
-    const nombre = "<Juan Beck/>"
-    const abouteMe = "<About Me/>"
-    const proyectos = "<Proyectos/>"
-    const skills = "<Skills/>"
+    const nombre = "< Juan Beck />"
+    const abouteMe = "< About Me />"
+    const proyectos = "< Proyectos />"
+    const skills = "< Skills />"
 
   return (
     <div className='nav-container'>

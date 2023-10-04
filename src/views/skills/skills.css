@@ -54,14 +54,14 @@
 }
   
 
-.li-skills {
+.ul-skills li {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.li-skills img {
+.ul-skills li img {
     width: 40px; 
     height: auto;
     margin-top: 5px;
