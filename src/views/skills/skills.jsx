@@ -27,6 +27,17 @@ function Skills() {
         {activeTab === 'tech' && (
           <div>
             <p>Aquí van las habilidades técnicas.</p>
+            <ul>
+              <li>JavaScript</li>
+              <li>Reac.js</li>
+              <li>Node.js</li>
+              <li>Redux</li>
+              <li>Express</li>
+              <li>PosgreSQL</li>
+              <li>Sequelize</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
           </div>
         )}
 
