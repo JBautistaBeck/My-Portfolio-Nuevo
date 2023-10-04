@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './skills.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleCheck } from '@fortawesome/free-solid-svg-icons'; 
 
 function Skills() {
   
@@ -27,7 +29,7 @@ function Skills() {
         {activeTab === 'tech' && (
           <div>
             <ul className='ul-skills'>
-              <li><img className='li-img' src='https://img.icons8.com/color/48/000000/javascript.png'></img> <b>JavaScript</b> </li>
+              <li><img src='https://img.icons8.com/color/48/000000/javascript.png'></img> <b>JavaScript</b> </li>
               <li><img src='https://img.icons8.com/color/48/000000/nodejs.png'></img> <b>Node.js</b> </li>
               <li><img src='https://img.icons8.com/color/48/000000/redux.png'></img> <b>Redux</b> </li>
               <li><img src='https://img.icons8.com/color/48/000000/react-native.png'></img> <b>Reac.js</b> </li>
@@ -46,17 +48,17 @@ function Skills() {
         {/* Contenido de Soft Skills */}
         {activeTab === 'soft' && (
           <div>
-            <ul className='ul-skills'>
-              <li>Comunicación</li>
-              <li>Trabajo en equipo</li>
-              <li>Resolución de problemas</li>
-              <li>Creatividad</li>
-              <li>Adaptabilidad</li>
-              <li>Gestión del tiempo</li>
-              <li>Ética profesional</li>
-              <li>Aprendizaje rápido</li>
-              <li>Optimista</li>
-              <li>Proactivo</li>
+            <ul className='ul-skills-soft'>
+              <li> <FontAwesomeIcon icon={faCircleCheck} style={{color: "#1f5122",}} /> <b>Comunicación</b></li>
+              <li> <FontAwesomeIcon icon={faCircleCheck} style={{color: "#1f5122",}} /> <b>Trabajo en equipo</b></li>
+              <li> <FontAwesomeIcon icon={faCircleCheck} style={{color: "#1f5122",}} /> <b>Resolución de problemas</b></li>
+              <li> <FontAwesomeIcon icon={faCircleCheck} style={{color: "#1f5122",}} /> <b>Creatividad</b></li>
+              <li> <FontAwesomeIcon icon={faCircleCheck} style={{color: "#1f5122",}} /> <b>Adaptabilidad</b></li>
+              <li> <FontAwesomeIcon icon={faCircleCheck} style={{color: "#1f5122",}} /> <b>Gestión del tiempo</b></li>
+              <li> <FontAwesomeIcon icon={faCircleCheck} style={{color: "#1f5122",}} /> <b>Ética profesional</b></li>
+              <li> <FontAwesomeIcon icon={faCircleCheck} style={{color: "#1f5122",}} /> <b>Aprendizaje rápido</b></li>
+              <li> <FontAwesomeIcon icon={faCircleCheck} style={{color: "#1f5122",}} /> <b>Optimista</b></li>
+              <li> <FontAwesomeIcon icon={faCircleCheck} style={{color: "#1f5122",}} /> <b>Proactivo</b></li>
             </ul>
           </div>
         )}

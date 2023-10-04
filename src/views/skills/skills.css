@@ -1,5 +1,5 @@
 .all {
-    background-color: #c17690;
+    background-color: #1f5122;
     margin: 0;
     padding: 0; 
     height: 88.7vh;
@@ -44,6 +44,7 @@
     text-align: left;
 }
 
+/* Tech Skills */
 .ul-skills {
     list-style: none;
     padding: 0;
@@ -66,4 +67,34 @@
     height: auto;
     margin-top: 5px;
     margin-bottom: -3px;
+}
+
+/* Soft Skills  */
+.ul-skills-soft {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 10px; 
+    justify-content: center;
+    margin-left: 50px; 
+}
+
+.ul-skills-soft li {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ul-skills-soft li img {
+    width: 40px; 
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: -3px;
+}
+
+.ul-skills-soft li b {
+    margin-left: 13px;
+    font-size: 22px;
 }
