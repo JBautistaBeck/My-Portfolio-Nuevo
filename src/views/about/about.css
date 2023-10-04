@@ -1,4 +1,4 @@
-.about-container {
+/* .about-container {
     background-color: #1f5122;
     display: flex;
     align-items: center;
@@ -53,4 +53,72 @@
     top: 20px;
     right: 20px; 
     margin-top: -20px;
+} */
+
+.about-container {
+    background-color: #1f5122;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide el contenedor en dos columnas */
+    align-items: center;
+    justify-content: center;
+    height: auto; /* Cambia la altura a automática para ajustarse al contenido */
+    padding: 100px;
+}
+
+.img-container {
+    max-width: 80%;
+    text-align: center; /* Centra la imagen en pantallas más pequeñas */
+}
+
+.round-image {
+    border-radius: 60%;
+    max-width: 70%; /* Asegura que la imagen se ajuste al contenedor */
+    height: auto;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.text-container {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.button-aboutme {
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.button-aboutme:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.top-right-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin-top: -20px;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        grid-template-columns: 1fr; /* Cambia a una sola columna en pantallas pequeñas */
+    }
+
+    .text-container {
+        margin-top: 0; /* Elimina el margen superior en pantallas pequeñas */
+
+    }
+    .img-container {
+        margin-left: 20px;
+    }
+    
 }
