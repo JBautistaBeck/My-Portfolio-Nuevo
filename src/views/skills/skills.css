@@ -126,7 +126,7 @@
     .skills-container {
         height: 810px;
         width: 200px;
-        margin-left: -100px;
+        align-items: center;
     }
     .all {
         height: 100vh;

@@ -12,3 +12,18 @@
     text-decoration: none; 
     font-weight: bold; 
 }
+
+/* Estilos para pantallas pequeñas (media query) */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .nav-link {
+        margin: 10px 0;
+        border-bottom: 1px solid #ffffff;
+    }
+}
