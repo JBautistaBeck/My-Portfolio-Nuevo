@@ -97,7 +97,7 @@
 
 .ul-skills-soft li b {
     margin-left: 13px;
-    font-size: 22px;
+    font-size: 11px;
 }
 
 
@@ -106,18 +106,11 @@
     .ul-skills-tech, .ul-skills-soft {
         grid-template-columns: repeat(2, 1fr);
     }
-    .ul-skills li{
-        margin-bottom: -2px;
-    }
-    .ul-skills-tech {
-        margin-top: -5px;
-    }
-
     .ul-skills-soft {
-        margin-left: 0; 
+        margin-left: 20px; 
     }
     .ul-skills-soft li {
-        margin-bottom: 15px;
+        margin-bottom: 40px;
     }
 }
 
@@ -131,5 +124,8 @@
     }
     .all {
         height: 100vh;
+    }
+    .tab-content {
+        width: 400px;
     }
 }
