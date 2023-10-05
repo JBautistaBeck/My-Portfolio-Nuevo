@@ -59,6 +59,6 @@
 @media (max-width: 768px) {
   .home-container {
     width: 80%;
-    align-items: center;
+    margin: auto;
   }
 }
