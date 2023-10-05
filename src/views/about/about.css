@@ -27,7 +27,7 @@
 }
 
 .text-total {
-    text-align: justify;
+    text-align: start;
 }
 
 .button-aboutme {
@@ -61,6 +61,7 @@
     }
     .text-container {
         margin-top: 0; 
+        width: 300px;
 
     }
     .img-container {
