@@ -107,10 +107,13 @@
         grid-template-columns: repeat(2, 1fr);
     }
     .ul-skills-soft {
-        margin-left: 20px; 
+        margin-left: 10px; 
     }
     .ul-skills-soft li {
         margin-bottom: 40px;
+    }
+    .ul-skills-tech {
+        margin-left: -30px;
     }
 }
 
