@@ -17,11 +17,11 @@
 
 @media (max-width: 768px) {
     .proyectos-list {
-        align-items: center;
-        margin-left: -40px;
+        margin: auto;
+
     }
     .title-pro{
-        margin-left: -20px;
+        margin: auto;
     }
 }
   
