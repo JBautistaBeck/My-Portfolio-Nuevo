@@ -60,6 +60,14 @@
   .home-container {
     width: 80%;
     margin: auto;
-    margin-top: -60px;
+  }
+  .title {
+    margin-bottom: 30px;
+  }
+  .subtitle {
+    margin-bottom: 60px;
+  }
+  .icon-container {
+    margin-bottom: 50px;
   }
 }
