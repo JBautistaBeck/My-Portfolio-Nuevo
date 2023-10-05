@@ -16,7 +16,7 @@ code {
 
 body {
   font-family: 'Barlow', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  background-image: url('../public/Fondo10.png'); /* Reemplaza 'ruta-de-la-imagen.jpg' con la ruta de tu imagen */
+  background-image: url('../public/prueba2.avif'); /* Reemplaza 'ruta-de-la-imagen.jpg' con la ruta de tu imagen */
   background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
   background-attachment: fixed;
