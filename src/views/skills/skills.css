@@ -110,12 +110,15 @@
         margin-left: -10px; 
     }
     .ul-skills-soft li {
-        margin-bottom: 40px;
+        margin-bottom: 70px;
     }
     .ul-skills-tech {
         margin-left: -70px;
         font-size: 10px;
         padding-right: 20px;
+    }
+    .ul-skills-tech li {
+        margin-bottom: 30px;
     }
 }
 
@@ -125,7 +128,7 @@
         height: auto;
         width: auto;
         align-items: center;
-        margin-bottom: 55px;
+        margin-bottom: 10px;
     }
     .all {
         height: 100vh;
