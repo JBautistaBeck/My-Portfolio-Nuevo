@@ -17,7 +17,7 @@ function About() {
       <div className='text-container'>
         <Link to="/proyectos" className='top-right-button'> <button className='button-aboutme'><FontAwesomeIcon  icon={faArrowRight} /></button> </Link>
         <h1>About Me</h1>
-        <p>{aboutMeText}</p>
+        <p className='text-total'>{aboutMeText}</p>
         <a href='https://docs.google.com/document/d/11-ACxx88UTeenLH1yS40QdkM-7Y5Uk-5AFdoxkhnGt4/edit' target="_blank" rel="noopener noreferrer"><button className='button-aboutme'>Curriculum Vitae</button></a>
       </div>
     </div>

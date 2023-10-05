@@ -105,6 +105,7 @@
 
     .ul-skills-tech, .ul-skills-soft {
         grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 0;
     }
     .ul-skills-soft {
         margin-left: -10px; 
