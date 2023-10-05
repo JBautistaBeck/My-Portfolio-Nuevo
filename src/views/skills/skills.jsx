@@ -28,7 +28,7 @@ function Skills() {
         {/* Contenido de Tech Skills */}
         {activeTab === 'tech' && (
           <div>
-            <ul className='ul-skills'>
+            <ul className='ul-skills-tech'>
               <li><img src='https://img.icons8.com/color/48/000000/javascript.png' alt='JavaScript'></img> <b>JavaScript</b> </li>
               <li><img src='https://img.icons8.com/color/48/000000/nodejs.png' alt='Node.js'></img> <b>Node.js</b> </li>
               <li><img src='https://img.icons8.com/color/48/000000/redux.png' alt='Redux'></img> <b>Redux</b> </li>

@@ -45,7 +45,7 @@
 }
 
 /* Tech Skills */
-.ul-skills {
+.ul-skills-tech {
     list-style: none;
     padding: 0;
     display: grid;
@@ -55,14 +55,14 @@
 }
   
 
-.ul-skills li {
+.ul-skills-tech li {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.ul-skills li img {
+.ul-skills-tech li img {
     width: 40px; 
     height: auto;
     margin-top: 5px;
@@ -103,13 +103,13 @@
 
 @media (max-width: 768px) {
 
-    .ul-skills, .ul-skills-soft {
-        grid-template-columns: repeat(1, 1fr);
+    .ul-skills-tech, .ul-skills-soft {
+        grid-template-columns: repeat(2, 1fr);
     }
     .ul-skills li{
         margin-bottom: -2px;
     }
-    .ul-skills {
+    .ul-skills-tech {
         margin-top: -5px;
     }
 
@@ -124,9 +124,10 @@
 
 @media (max-width: 768px) {
     .skills-container {
-        height: 810px;
-        width: 200px;
+        height: auto;
+        width: auto;
         align-items: center;
+        margin-bottom: 55px;
     }
     .all {
         height: 100vh;
