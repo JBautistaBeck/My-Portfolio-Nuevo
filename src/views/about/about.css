@@ -54,6 +54,25 @@
     margin-top: -20px;
 }
 
+/*ANIMACIONES*/
+.about-container {
+  opacity: 0;
+  transform: translateX(-300px);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+/* 
+.icon-container,
+.link-boton-aboutme {
+  opacity: 0;
+  transform: translateY(80px);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+} */
+
+.about-container.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 @media (max-width: 768px) {
     .about-container {
         grid-template-columns: 1fr; 

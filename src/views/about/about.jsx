@@ -1,4 +1,5 @@
 import './about.css';
+import React, { useEffect } from 'react';
 import fotoPerfil from "../../utils/foto-perfil.jpeg"
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -9,6 +10,12 @@ function About() {
   const aboutMeText1 = "¡Hola! 👋🏼 Soy Juan Bautista María Beck, un estudiante avanzado en Administración de Empresas con una gran pasión por la programación."
   const aboutMeText2 = " Durante mi recorrido universitario, mi incesante curiosidad por el mundo de la programación me impulsó a dar un paso al frente. Inicié mi formación en programación en Soy Henry y desde entonces, me he sumergido de lleno en el fascinante universo tecnológico."
   const aboutMeText3 = " En la actualidad, me encuentro en constante exploración de nuevas tecnologías y mantengo al día con las últimas tendencias."
+
+  useEffect(() => {
+    const container = document.querySelector(".about-container");
+    container.classList.add("show");//Le agrega la clase show al elemento title
+
+  }, []);
 
   return (
     <div className='about-container'>
