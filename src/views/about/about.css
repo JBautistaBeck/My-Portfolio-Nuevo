@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     height: auto; 
-    padding: 100px;
+    padding: 50px;
 }
 
 .img-container {
@@ -13,7 +13,7 @@
 
 .round-image {
     border-radius: 60%;
-    max-width: 70%; 
+    max-width: 60%; 
     height: auto;
     margin: 0 auto;
     border: 2px solid #000000 ;
