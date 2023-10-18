@@ -1,31 +1,39 @@
-//import logo from './logo.svg';
-import './App.css';
-import Home from './views/home/home';
-import About from './views/about/about';
-import Proyectos from './views/proyectos/proyectos';
-import Skills from './views/skills/skills';
-import NavBar from './componets/NavBar/navBar';
-import {Route, Routes} from "react-router-dom";
+import NavBar from './componentes/NavBar';
+import Footer from './componentes/footer';
+import About from './views/about';
+import Home from './views/home';
+import Proyectos from './views/proyectos';
+import Skills from './views/skills';
+
 
 function App() {
 
-  // const location = useLocation()
-
   return (
-    <div>
+    <div className="flex flex-col h-screen">
+      <div >
+        <NavBar > </NavBar> 
+      </div>
 
-      <NavBar/>
+      <div className="flex-1" id="home">
+        <Home />
+      </div>
+      <div className="flex-1" id="about">
+        <About />
+      </div>
+      <div className="flex-1" id="proyectos">
+        <Proyectos></Proyectos>
+      </div>
+      <div className='flex-1' id="skills">
+        <Skills></Skills>
+      </div>
 
-      <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/about' element={<About/>}/>
-        <Route path='/proyectos' element={<Proyectos/>}/>
-        <Route path='/skills' element={<Skills/>}/>
-      </Routes>
-
-
+      <div>
+        <Footer></Footer>
+      </div>
     </div>
   );
 }
 
 export default App;
+
+

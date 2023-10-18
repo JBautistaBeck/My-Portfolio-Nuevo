@@ -1,0 +1,27 @@
+@keyframes slide-from-top {
+    from {
+      transform: translateX(-200%);
+    }
+    to {
+      transform: translateX(0);
+    }
+}
+  
+.slide-from-top {
+    animation: slide-from-top 1.5s ease-out;
+}
+ 
+
+@keyframes slide-from-bottom {
+    from {
+      transform: translateX(200%);
+    }
+    to {
+      transform: translateX(0);
+    }
+}
+  
+.slide-from-bottom {
+    animation: slide-from-bottom 1.5s ease-out;
+}
+  
